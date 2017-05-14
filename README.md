@@ -1,7 +1,7 @@
 slides for history of VR / Intro to Aframe:
 https://docs.google.com/presentation/d/1TFNlNaAAq9XQAkSzMjsUq_neW1CVovD9rkFAik59HVI/edit?usp=sharing
 
-slides for advanced Aframe / React integration: 
+slides for advanced Aframe / React integration:
 https://docs.google.com/presentation/d/1W_QRLqOEDKKe1yUQBKYuLdpWnmBLBhWVF7EabXXi56M/edit?usp=sharing
 
 ## First Steps:
@@ -12,6 +12,10 @@ https://docs.google.com/presentation/d/1W_QRLqOEDKKe1yUQBKYuLdpWnmBLBhWVF7EabXXi
 4. open a terminal in the project directory and run the following commands:
 
 >npm install
+// questions when we install something... where does it go?
+// does it take up a lot of space?
+// how do you remove it? do you need to remove it?
+// i dled aframe first and the nran npm install, what happened?
 
 >npm run
 
@@ -41,7 +45,7 @@ Edit the source code files in your favorite text editor or IDE to complete as ma
 1. Load in 3D models for the player and targets instead simple sphere primitives
 2. Add sound effects
 3. Implement new enemy and friendly types - perhaps an armored enemy that needs to be hit more than once to be destroyed, or a rapid-fire enemy that launches missiles at a faster rate
-4. Add powerups that enemies and friendlies drop -- they could be extra lives, or a bigger cursor, or a bomb that will destroy anything on screen. Enemies could drop powerups when they are destroyed and friendlies could drop them when they fly away 
+4. Add powerups that enemies and friendlies drop -- they could be extra lives, or a bigger cursor, or a bomb that will destroy anything on screen. Enemies could drop powerups when they are destroyed and friendlies could drop them when they fly away
 5. Create different difficulty modes, or have the difficulty progressively increase with time
 6. Create a "flight-path" component that causes entities to move along a designated path before flying away
 7. Modify the spawnEntities() function in the utils directory to spawn groups of entities laid out in formation rather than one at a time
@@ -56,4 +60,4 @@ This workshop is a work in progress, so if you find an optimization or implement
 If you wish to change any of the configure files (webpack, etc), run the following command:
 >npm run eject
 
-Please note that this action cannot be undone and is not necessary to complete the basic steps of this assignment. 
+Please note that this action cannot be undone and is not necessary to complete the basic steps of this assignment.
